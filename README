@@ -1,0 +1,11 @@
+Executive Summary of Features:
+
+Given given teams, resources (nets/fields),  constraints (e.g. one match per
+team per day):
+
+* Generate Tournament Schedule 
+* Track and Manage Tournament Progress
+* Playoff Schedule at the end of League Round
+
+This interface will be command line based and the input and output would be file
+based for the first phase. Later this could become a webapp.
