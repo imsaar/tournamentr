@@ -1,0 +1,29 @@
+team:
+  8 players max
+  4 players min
+  1 match per_day
+
+league/draw/round:
+  8 teams max
+  4 teams min
+  2 pools min
+  4 pools max
+  1 play all_pool
+
+venue:
+  2 match per_day
+
+schedule:
+  on every weekday
+  from 1200 PDT
+  to 1800 PDT
+
+playoffs:
+  2 top per_pool
+  1 match knockout
+
+scoring:
+  1 win 3_points
+  1 tie 2_points
+  1 loose 1_point
+  1 noshow 0_point
