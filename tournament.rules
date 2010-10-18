@@ -1,9 +1,14 @@
+event:
+ team
+ pool
+ playoff
+
 team:
   8 players max
   4 players min
-  1 match per_day
+  1 match daily
 
-league/draw/round:
+pool:
   8 teams max
   4 teams min
   2 pools min
@@ -11,7 +16,9 @@ league/draw/round:
   1 play all_pool
 
 venue:
-  2 match per_day
+  2 match daily
+  from 1400 PDT
+  to 1700 PDT
 
 schedule:
   on every weekday
@@ -20,7 +27,7 @@ schedule:
 
 playoffs:
   2 top per_pool
-  1 match knockout
+  single elimination
 
 scoring:
   1 win 3_points
